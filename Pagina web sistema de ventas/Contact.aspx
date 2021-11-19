@@ -7,23 +7,22 @@
         <asp:Image ID="Image1" runat="server" Height="145px" ImageUrl="~/Recursos/Captura de pantalla (821).png" Width="224px" />
     </h2>
 
-    <h3>Your contact page with technology center .</h3>
+    <h3><strong>Your contact page with technology center .</strong></h3>
     <address>
 
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
+        <strong>Si quiere información de cualquiera de nuestros productos, puedes llamarnos a nuestros números telefonicos, o contactarnos por medio de nuestros correos electrónicos, muchas gracias.</strong></address>
+    <address>
+
+        <strong>Sede central:</strong> Plaza mundo (soyapango)</address>
 
     <address>
         &nbsp;</address>
     <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">technologycenter@gmail.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">technologycenter@gmail.com</a>
+        <strong>Correo principal:</strong>   <a href="mailto:Support@example.com">technologycenter@gmail.com</a><br />
+        <strong>Correo secundario:</strong> <a href="mailto:Marketing@example.com">technologycenter@gmail.com</a>
         
     </address>
     <address>
-        Numero de Contacto: +503 2666-7878</address>
+        <strong>Numero de Contacto:</strong> +503 2666-7878, +503 7226-4567</address>
 </asp:Content>
 
