@@ -17,7 +17,7 @@
             <asp:BoundField DataField="Puesto" HeaderText="Puesto" SortExpression="Puesto" />
         </Columns>
     </asp:GridView>
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Sistema de ventasConnectionString %>" SelectCommand="SELECT [Id_de_Puesto], [Id_de_Empleado], [Puesto] FROM [Puestos]"></asp:SqlDataSource>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Sistema de ventasConnectionString2 %>" SelectCommand="SELECT [Id_de_Puesto], [Id_de_Empleado], [Puesto] FROM [Puestos]"></asp:SqlDataSource>
 </p>
 <p class="text-center">
     &nbsp;</p>

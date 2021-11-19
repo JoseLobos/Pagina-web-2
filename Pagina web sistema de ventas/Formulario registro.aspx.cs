@@ -24,7 +24,7 @@ namespace Pagina_web_sistema_de_ventas
         protected void Button1_Click(object sender, EventArgs e)
         {
             {
-                SqlConnection conexion = new SqlConnection(@"Data Source=LAPTOP-QM112JVD\MSSQLSERVER01;Initial Catalog=Login;Integrated Security=True");
+                SqlConnection conexion = new SqlConnection(@"Data Source=LAPTOP-PTG9S9NO\MSSQLSERVER01;Initial Catalog=Login;Integrated Security=True");
                 string usuario;
                 usuario = (TextBox1.Text);
 

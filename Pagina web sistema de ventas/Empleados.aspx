@@ -14,9 +14,9 @@
 <p class="text-center">
     LISTADO DE EMPLEADOS</p>
 <p class="text-center">
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Id_Empleado" DataSourceID="SqlDataSource1">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
         <Columns>
-            <asp:BoundField DataField="Id_Empleado" HeaderText="Id_Empleado" ReadOnly="True" SortExpression="Id_Empleado" />
+            <asp:BoundField DataField="Id_Empleado" HeaderText="Id_Empleado" SortExpression="Id_Empleado" />
             <asp:BoundField DataField="Nombres" HeaderText="Nombres" SortExpression="Nombres" />
             <asp:BoundField DataField="Apellidos" HeaderText="Apellidos" SortExpression="Apellidos" />
             <asp:BoundField DataField="Fecha_de_Nacimiento" HeaderText="Fecha_de_Nacimiento" SortExpression="Fecha_de_Nacimiento" />
@@ -31,10 +31,10 @@
             <asp:BoundField DataField="Numero_de_Dui" HeaderText="Numero_de_Dui" SortExpression="Numero_de_Dui" />
             <asp:BoundField DataField="Numero_de_Nit" HeaderText="Numero_de_Nit" SortExpression="Numero_de_Nit" />
             <asp:BoundField DataField="Numero_de_AFP" HeaderText="Numero_de_AFP" SortExpression="Numero_de_AFP" />
-            <asp:BoundField DataField="Fecha_de_Ingreso" HeaderText="Fecha_de_Ingreso" SortExpression="Fecha_de_Ingreso" />
+            <asp:BoundField DataField="Fecha_de_ingreso" HeaderText="Fecha_de_ingreso" SortExpression="Fecha_de_ingreso" />
             <asp:BoundField DataField="Jefatura" HeaderText="Jefatura" SortExpression="Jefatura" />
         </Columns>
     </asp:GridView>
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Sistema de ventasConnectionString %>" SelectCommand="SELECT [Id_Empleado], [Nombres], [Apellidos], [Fecha_de_Nacimiento], [Telefono], [Direccion], [Genero], [Departamento], [Nivel_laboral], [Sueldo], [Observaciones], [Correo], [Numero_de_Dui], [Numero_de_Nit], [Numero_de_AFP], [Fecha_de_Ingreso], [Jefatura] FROM [Empleados]"></asp:SqlDataSource>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Sistema de ventasConnectionString2 %>" SelectCommand="SELECT [Id_Empleado], [Nombres], [Apellidos], [Fecha_de_Nacimiento], [Telefono], [Direccion], [Genero], [Departamento], [Nivel_laboral], [Sueldo], [Observaciones], [Correo], [Numero_de_Dui], [Numero_de_Nit], [Numero_de_AFP], [Fecha_de_ingreso], [Jefatura] FROM [Empleados]"></asp:SqlDataSource>
 </p>
 </asp:Content>
